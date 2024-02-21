@@ -17,6 +17,7 @@
     "up-interactive": "pnpm up -i",
     "up-latest": "pnpm up-interactive -L",
     "release": "standard-version",
+    "commit": "git add . && git commit 'FEAT release' ",
     "push-release": "git push --follow-tags origin main",
     "prepare": "husky install"
   },
